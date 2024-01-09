@@ -1,0 +1,113 @@
+.dark {
+  background-color: #0c0c01;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.highlight {
+  color: #854ce6;
+}
+
+.dark .text {
+  color: rgb(250, 245, 245);
+}
+
+.dark .bg {
+  background-color: #101000;
+  border-radius: 16px;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+
+.dark hr {
+  border: 1px solid #ad88e9;
+}
+
+.dark .vertical-timeline-element-content {
+  background-color: #101000;
+}
+
+.vertical-timeline::before {
+  background-color: #ad88e9;
+}
+
+.dark .card-title {
+  color: white;
+}
+
+.light .text {
+  color: black;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  padding: 10px 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .large {
+    display: none;
+  }
+
+  .carousel-card {
+    margin-top: 15px;
+  }
+
+  .project-skill {
+    border: 1px solid #f2f3f495;
+    border-radius: 12px;
+    padding: 0px 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e5e0f7;
+    color: #854ce6;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .large {
+    display: none;
+  }
+
+  .carousel-card {
+    margin: 25px 120px 50px 120px;
+  }
+
+  .carousel-card img {
+    height: 500px;
+  }
+
+  .project-skill {
+    border: 1px solid #f2f3f495;
+    border-radius: 12px;
+    padding: 0px 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e5e0f7;
+    color: #854ce6;
+    border-radius: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+  .small {
+    display: none
+  }
+
+  .carousel-card {
+    margin: 25px 120px 50px 120px;
+  }
+
+  .carousel-card img {
+    height: 500px;
+  }
+}

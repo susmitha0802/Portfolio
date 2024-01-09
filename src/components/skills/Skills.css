@@ -1,0 +1,35 @@
+.skill-item {
+  border: 1px solid #f2f3f495;
+  border-radius: 12px;
+  padding: 0px 10px;
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: #e5e0f7;
+  color: #854ce6;
+  transition: transform 0.5s;
+}
+
+.skill-item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.skill-item .icon svg {
+  width: 75%;
+  height: 75%;
+}
+
+.skill-item .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-item:hover {
+  box-shadow: 5px 5px 50px #ccc;
+  animation: flip 2s;
+}
